@@ -6,6 +6,22 @@
   font-weight: 400;
   font-style: normal;
 }
+/* Shared style */
+.paragraph_text{
+font-size: 16;
+font-weight: 400;
+line-height: 26px;
+color: #000000;
+}
+.primary_btn{
+font-size: 20px;
+font-weight:500;
+color: #FFFFFF;
+background-color: rgba(255, 144, 14, 1);
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+}
 /* Nav style */
 .nav_container{
     display: flex;
@@ -33,4 +49,13 @@
 }
 .header_background{
     background-color: rgba(255, 144, 14, 0.1);
+}
+/* Banner Style */
+.banner_brand{
+    font-size: 64px;
+    font-weight: bold;
+    color: #131313;
+}
+.banner_content{
+    text-align: center;
 }
