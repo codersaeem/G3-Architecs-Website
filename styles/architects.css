@@ -19,8 +19,8 @@ font-weight:500;
 color: #FFFFFF;
 background-color: rgba(255, 144, 14, 1);
 padding: 10px;
-margin-bottom: 20px;
 border-radius: 5px;
+border: none;
 }
 /* Nav style */
 .nav_container{
@@ -43,7 +43,7 @@ border-radius: 5px;
     font-weight: bold;
     color: #131313;
 }
-.nav_container, .banner_container{
+.nav_section, .banner_section, main{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -58,4 +58,31 @@ border-radius: 5px;
 }
 .banner_content{
     text-align: center;
+}
+.banner_img{
+    margin: 30px;
+}
+/* Feature Style */
+.feature_section{
+    margin: 50px;
+}
+.feature_container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.feature_img{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 20px;
+}
+.feature_text{
+    font-size: 45px;
+}
+.light{
+font-weight: lighter;
+flood-color: #424242;
+}
+.color{
+color: rgba(255, 144, 14, 1);
 }
