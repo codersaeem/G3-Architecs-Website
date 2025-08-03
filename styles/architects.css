@@ -8,7 +8,7 @@
 }
 /* Shared style */
 .paragraph_text{
-font-size: 16;
+font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 color: #000000;
@@ -85,4 +85,118 @@ flood-color: #424242;
 }
 .color{
 color: rgba(255, 144, 14, 1);
+}
+
+/* Some Facts */
+.facts{
+    display: flex;
+    justify-content: space-around;
+}
+.fact_content h3{
+    font-size: 45px;
+    font-weight: 900;
+    color: #131313;
+}
+.fact_icon{
+    border: 1px solid rgba(255, 144, 14, 1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.fact_icon h3{
+    font-size: 45px;
+    font-weight: 500;
+    color: #424242;
+}
+.fact_icon p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #727272;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  /* General spacing */
+  .nav_section, .banner_section, main {
+    padding: 10px;
+  }
+
+  /* Navbar */
+  .nav_container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .nav_content {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav_item {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .brand h3 {
+    font-size: 28px;
+  }
+
+  /* Banner */
+  .banner_brand {
+    font-size: 32px;
+  }
+
+  .banner_content p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 10px;
+  }
+
+  .banner_img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Feature Section */
+  .feature_container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .feature_img {
+    grid-template-columns: 1fr;
+  }
+
+  .feature_text {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .feature_content {
+    text-align: center;
+  }
+
+  .primary_btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  /* Fix paragraph text size */
+  .paragraph_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }
